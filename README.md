@@ -1,31 +1,50 @@
-# Airline Passenger Satisfaction – Logistic Regression
+# Logistic Regression – Airline Passenger Satisfaction
+
+Predicts airline passenger satisfaction using a Logistic Regression model with feature engineering for improved performance.
+
+---
 
 ## Overview
-This project uses a Logistic Regression model to predict whether an airline passenger is satisfied based on survey data.
+This project applies **Logistic Regression** to classify airline passenger satisfaction based on survey data.  
+The goal is to practice **data preprocessing**, **feature engineering** (including polynomial features), and **model evaluation** using a simple and interpretable model.
 
-The goal of the project is to practice clean data preprocessing, feature engineering, and model evaluation using a simple and interpretable model.
+---
 
 ## Dataset
-The Airline Passenger Satisfaction dataset is publicly available.
-The dataset is not included in this repository.
+The project uses the **Airline Passenger Satisfaction dataset**, which is publicly available.  
 
-Instructions for obtaining the dataset can be found in the `data/` folder.
+- **If dataset is included**: it is located in the `data/` folder.  
+- **If dataset is not included**, you can download it from [insert dataset link here] and place it in the `data/` folder. Make sure the filename matches what is used in the notebook.
+
+---
 
 ## Approach
-- Data cleaning and preprocessing
-- Feature encoding and scaling
-- Polynomial feature interactions to capture non-linear relationships
-- Logistic Regression with regularization
+- Load and clean the dataset (handle missing values, correct types)  
+- Encode categorical features and scale numerical features  
+- Generate **polynomial features** to capture non-linear relationships  
+- Train a **Logistic Regression** model with L2 regularization  
+- Evaluate performance using **accuracy** and **confusion matrix**  
+
+> Note: Using polynomial features improved the model metrics while keeping it interpretable.
+
+---
+
+## Results
+- Model accuracy: ~94%
+- Polynomial features allowed the model to capture non-linear patterns and slightly improve performance
+- Confusion matrix shows balanced classification of satisfied vs unsatisfied passengers
+
+---
 
 ## Tools
-- Python
-- Pandas, NumPy
-- Scikit-learn
+- Python 3.13
+- Pandas, NumPy, MatPlotLib  
+- Scikit-learn  
+- Jupyter Notebook  
+
+---
 
 ## How to Run
-1. Download the dataset and place it in the `data/` folder
-2. Install dependencies
-3. Run the Jupyter notebook
-
-## Notes
-This project was built for learning and experimentation.
+1. Clone the repository:
+```bash
+git clone https://github.com/E1-M0ra/logistic-regression-airline-satisfaction.git
