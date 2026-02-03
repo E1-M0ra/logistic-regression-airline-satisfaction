@@ -13,9 +13,8 @@ The goal is to practice **data preprocessing**, **feature engineering** (includi
 ## Dataset
 The project uses the **Airline Passenger Satisfaction dataset**, which is publicly available.  
 
-- **If dataset is included**: it is located in the `data/` folder.  
-- **If dataset is not included**, you can download it from [insert dataset link here] and place it in the `data/` folder. Make sure the filename matches what is used in the notebook.
-
+- It is located in the `data/` folder.
+  
 ---
 
 ## Approach
@@ -48,3 +47,4 @@ The project uses the **Airline Passenger Satisfaction dataset**, which is public
 1. Clone the repository:
 ```bash
 git clone https://github.com/E1-M0ra/logistic-regression-airline-satisfaction.git
+
